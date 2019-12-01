@@ -33,7 +33,7 @@ h2 {
     padding-left: 0px;
   }
 
-  .vid div{
+  #Container{
 	padding-bottom:75%; 
 	position:relative; 
 	display:block; 
