@@ -6,7 +6,7 @@ body {
   font-family: 'Open Sans', sans-serif;
 }
 
-.vid div {
+#Container {
 	padding-bottom:38%; 
 	position:relative; 
 	display:block; 
