@@ -32,6 +32,13 @@ h2 {
     padding-top: 75px;
     padding-left: 0px;
   }
+
+  .vid{
+	padding-bottom:75%; 
+	position:relative; 
+	display:block; 
+	width: 100%;
+  }
 }
 
 /* Page content. The value of the margin-left property should match the value of the sidebar's width property */
