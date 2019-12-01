@@ -6,6 +6,12 @@ body {
   font-family: 'Open Sans', sans-serif;
 }
 
+iframe{
+	position: absolute;
+	top: 0; 
+	left: 0;
+}
+
 a {
 	color: rgb(52, 17, 94);
 }
