@@ -6,7 +6,7 @@ body {
   font-family: 'Open Sans', sans-serif;
 }
 
-.vid {
+.vid div {
 	padding-bottom:38%; 
 	position:relative; 
 	display:block; 
@@ -33,7 +33,7 @@ h2 {
     padding-left: 0px;
   }
 
-  .vid{
+  .vid div{
 	padding-bottom:75%; 
 	position:relative; 
 	display:block; 
