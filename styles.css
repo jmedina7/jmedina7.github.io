@@ -6,6 +6,13 @@ body {
   font-family: 'Open Sans', sans-serif;
 }
 
+.vid {
+	padding-bottom:38%; 
+	position:relative; 
+	display:block; 
+	width: 50%;
+}
+
 iframe{
 	position: absolute;
 	top: 0; 
