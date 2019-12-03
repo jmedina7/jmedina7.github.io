@@ -13,17 +13,6 @@ body {
 	width: 50%;
 }
 
-.dropdown-container {
-	display: none;
-	background-color: #262626;
-	padding-left: 8px;
-  }
-
-  /* Optional: Style the caret down icon */
-.fa-caret-down {
-	float: right;
-  }
-
 iframe{
 	position: absolute;
 	top: 0; 
@@ -41,10 +30,6 @@ h1 {
 h3 {
 	text-decoration: underline;
 	font-style: oblique;
-}
-
-p {
-	padding-right: 20px;
 }
 
 @media (max-width: 992px) {

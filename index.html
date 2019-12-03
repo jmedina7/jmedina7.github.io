@@ -45,14 +45,9 @@
                     <li class="nav-item">
                         <a class="nav-link js-scroll-trigger" href="#about">About</a>
                     </li>
-                    <li><a class="nav-item dropdown-btn">Programming 
-                      <i class="fa fa-caret-down"></i>
-                    </a>
-                    <div class="dropdown-container">
-                      <a href="#progskills">Skills</a>
-                      <a href="#projects">Projects</a>
-                      <a href="#coursework">Coursework</a>
-                    </div></li>
+                    <li class="nav-item">
+                        <a class="nav-link js-scroll-trigger" href="#programming">Programming</a>
+                    </li>
                     <li class="nav-item">
                         <a class="nav-link js-scroll-trigger" href="#performingarts">Performing Arts</a>
                     </li>
@@ -76,9 +71,9 @@
         <hr size="10">
         <div id="programming">
             <h2>Programming</h2>
-            <h3 id="progskills">Skills</h3>
+            <h3>Skills</h3>
             <p>HTML5, C#, ASP.NET Core, CSS, Java, PHP, C, C++, JavaScript, Unreal Engine 4, Eclipse, Visual Studio, Visual Studio Code, Umbraco</p>
-            <h3 id="projects">Projects</h3>
+            <h3>Projects</h3>
             <h4>Strong Jugglers' Website</h4>
             <div class="w-75">
                 <a href="http://www.sa.rochester.edu/jugglers/"><img class="img-fluid mb-2" src="strongjugglers.png"></a>
@@ -105,7 +100,7 @@
                 <a href="https://serenaflint.github.io/"><img class="img-fluid mb-2" src="scp.png"></a>
             </div>
             <p>This website was created for Dandyhacks 2019, to showcase an SCP Generator. I did the site development, and Serena Flint made the generator.</p>
-            <h3 id="coursework">Course Work</h3>
+            <h3>Course Work</h3>
             <p><strong>Web Programming</strong> Spring 2019: In a team of 3, created collaborative canvas with login
                 page,
                 API, and database using ASP.Net. Created War web application, using a deck of cards API.</p>
@@ -245,24 +240,6 @@
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js"
         integrity="sha384-uefMccjFJAIv6A+rW+L4AHf99KvxDjWSu1z9VI8SKNVmz4sk7buKt/6v9KI65qnm"
         crossorigin="anonymous"></script>
-
-        <script>
-          /* Loop through all dropdown buttons to toggle between hiding and showing its dropdown content - This allows the user to have multiple dropdowns without any conflict */
-          var dropdown = document.getElementsByClassName("dropdown-btn");
-          var i;
-          
-          for (i = 0; i < dropdown.length; i++) {
-            dropdown[i].addEventListener("click", function() {
-            this.classList.toggle("active");
-            var dropdownContent = this.nextElementSibling;
-            if (dropdownContent.style.display === "block") {
-            dropdownContent.style.display = "none";
-            } else {
-            dropdownContent.style.display = "block";
-            }
-            });
-          }
-          </script>
 
 </body>
 
