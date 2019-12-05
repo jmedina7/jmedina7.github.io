@@ -1,3 +1,7 @@
+html {
+	scroll-behavior: smooth;
+}
+
 body {
   background-color: rgb(199, 206, 219);
   color: #28442C;
