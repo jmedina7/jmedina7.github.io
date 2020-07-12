@@ -10,6 +10,14 @@ body {
   font-family: 'Raleway', sans-serif;
 }
 
+.visible-mobile {
+	display: none;
+  }
+
+.hidden-mobile {
+	display: inline;
+}
+
 #Container {
 	padding-bottom:38%; 
 	position:relative; 
@@ -33,6 +41,14 @@ h2 {
   body {
     padding-top: 75px;
     padding-left: 0px;
+  }
+
+  .visible-mobile {
+	display: inline;
+  }
+
+  .hidden-mobile {
+	display: none;
   }
 
   #Container{
