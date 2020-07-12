@@ -87,38 +87,63 @@
     <hr size="10" id="projects">
     <div>
       <h2>Projects</h2>
-      <h3>Strong Jugglers' Website</h3>
-      <div class="w-75">
-        <a href="http://www.sa.rochester.edu/jugglers/"><img class="img-fluid mb-2" src="strongjugglers.png"></a>
+      <div class="card-columns">
+        <div class="card">
+          <a href="http://www.sa.rochester.edu/jugglers/"><img class="img-fluid mb-2 card-img-top"
+              src="strongjugglers.png"></a>
+          <div class="card-body">
+            <h3 class="card-title">Strong Jugglers' Website</h3>
+            <p class="card-text">A campus organization's website. Talks about the organization and offers a calendar and
+              a form for
+              contact. I designed and developed the website from scratch, and I'm currently managing it.</p>
+          </div>
+        </div>
+        <div class="card">
+          <a href="http://www.sa.rochester.edu/ctspecialprojects/CloserlookDPS/"><img
+              class="img-fluid mb-2 card-img-top" src="dps.png"></a>
+          <div class="card-body">
+            <h3 class="card-title">Campus Times' DPS Micro Website</h3>
+
+            <p class="card-text">This website is a micro site for the Campus Times. It has a timeline of events
+              involving
+              DPS and wanting to
+              arm
+              officers at the University of Rochester. Instead of a hero image, it has a YouTube video created by the
+              Campus
+              Times about Public Safety.</p>
+          </div>
+        </div>
+        <div class="card">
+          <a href="http://www.campustimes.org/"><img class="img-fluid mb-2 card-img-top" src="campustimes.png"></a>
+          <div class="card-body">
+            <h3 class="card-title">Campus Times' Website</h3>
+
+            <p class="card-text">A campus newspaper's WordPress website. I maintain and debug the website.</p>
+          </div>
+        </div>
+        <div class="card">
+          <img class="img-fluid mb-2 card-img-top" src="doublecross.png">
+          <div class="card-body">
+            <h3 class="card-title">NOAA Doublecross Antenna Website</h3>
+            <p class="card-text">This website was created for Brickhacks 2019 to showcase satellite images and the
+              process used to obtain
+              them.
+              I did the site development and helped collect information from the satellite, and Serena Flint made the
+              antenna,
+              then resampled and decoded the WAV files from the satellite to get the satellite images.</p>
+          </div>
+        </div>
+        <div class="card">
+          <a href="https://serenaflint.github.io/"><img class="img-fluid mb-2 card-img-top" src="scp.png"></a>
+          <div class="card-body">
+            <h3 class="card-title">SCP Generator Website</h3>
+            <p class="card-text">This website was created for Dandyhacks 2019, to showcase an SCP Generator. I did the
+              site
+              development, and
+              Serena Flint made the generator.</p>
+          </div>
+        </div>
       </div>
-      <p>A campus organization's website. Talks about the organization and offers a calendar and a form for
-        contact. I designed and developed the website from scratch, and I'm currently managing it.</p>
-      <h3>Campus Times' DPS Micro Website</h3>
-      <div class="w-75">
-        <a href="http://www.sa.rochester.edu/ctspecialprojects/CloserlookDPS/"><img class="img-fluid mb-2"
-            src="dps.png"></a>
-      </div>
-      <p>This website is a micro site for the Campus Times. It has a timeline of events involving DPS and wanting to arm
-        officers at the University of Rochester. Instead of a hero image, it has a YouTube video created by the Campus
-        Times about Public Safety.</p>
-      <h3>Campus Times' Website</h3>
-      <div class="w-75">
-        <a href="http://www.campustimes.org/"><img class="img-fluid mb-2" src="campustimes.png"></a>
-      </div>
-      <p>A campus newspaper's WordPress website. I maintain and debug the website.</p>
-      <h3>NOAA Doublecross Antenna Website</h3>
-      <div class="w-75">
-        <img class="img-fluid mb-2" src="doublecross.png">
-      </div>
-      <p>This website was created for Brickhacks 2019 to showcase satellite images and the process used to obtain them.
-        I did the site development and helped collect information from the satellite, and Serena Flint made the antenna,
-        then resampled and decoded the WAV files from the satellite to get the satellite images.</p>
-      <h3>SCP Generator Website</h3>
-      <div class="w-75">
-        <a href="https://serenaflint.github.io/"><img class="img-fluid mb-2" src="scp.png"></a>
-      </div>
-      <p>This website was created for Dandyhacks 2019, to showcase an SCP Generator. I did the site development, and
-        Serena Flint made the generator.</p>
     </div>
     <hr size="10" id="courses">
     <div>
@@ -145,7 +170,7 @@
   <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js"
     integrity="sha384-uefMccjFJAIv6A+rW+L4AHf99KvxDjWSu1z9VI8SKNVmz4sk7buKt/6v9KI65qnm"
     crossorigin="anonymous"></script>
-    <script>$('.navbar-collapse a').click(function(){
+  <script>$('.navbar-collapse a').click(function () {
       $(".navbar-collapse").collapse('hide');
     });</script>
 
