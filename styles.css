@@ -16,6 +16,11 @@ body {
 	border-color: white; 
 } 
 
+.btn:focus, .btn:active {
+	outline: none !important;
+	box-shadow: none !important;
+}
+
 .visible-mobile {
 	display: none;
   }
